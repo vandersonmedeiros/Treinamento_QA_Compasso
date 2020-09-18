@@ -1,2 +1,2 @@
 # Features
-Treinamento de BDD utilizando Gherkins
+Treinamento de BDD utilizando Gherkin

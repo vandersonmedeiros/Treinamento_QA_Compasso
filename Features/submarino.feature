@@ -1,12 +1,10 @@
 # language: pt
 
-Funcionalidade: Favoritar um produto
-    Como usuario
-    Eu desejo poder favoritar um produto no site submarino
-    Para ter o produto favoritado
+Funcionalidade: Favoritos
 
-    Cenario: Favoritar produto com sucesso
-        Dado que estou na tela de compra de um produto no site do Submarino
-        Quando eu clicar no botão favoritar
-        Então validar que o produto foi favoritado com sucesso
-        E validar que o produto está nos favoritos
+  Cenario: Favoritar produto com sucesso
+    Dado que esteja logado
+    Quando acessar um produto
+    E favoritar produto
+    Então o produto deverá ser favoritado com sucesso
+    E o produto deverá estar nos favoritos

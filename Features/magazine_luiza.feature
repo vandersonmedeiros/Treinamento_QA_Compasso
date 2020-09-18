@@ -1,13 +1,9 @@
 # language: pt
 
-Funcionalidade: Adicionar item no carrinho
-    Como cliente
-    Eu desejo pesquisar por um computador no site Magazine Luiza
-    Para que eu possa adicioná-lo ao carrinho
+Funcionalidade: Produto
 
-    Cenário: Adicionar item pesquisado no carrinho
-        Dado que o usuário abra o site da Magazine Luiza
-        E clique na barra de pesquisa
-        Quando eu pesquisar por computador
-        E adicionar o primeiro item ao carrinho
-        Então validar que o computador foi inserido no carrinho com sucesso
+  Cenário: Adicionar item no carrinho
+    Dado que esteja na home
+    Quando pesquisar por "computador"
+    E adicionar o primeiro item ao carrinho
+    Então o item deverá ser adicionado ao carrinho
